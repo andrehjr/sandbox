@@ -27,6 +27,7 @@ Spec::Matchers.define :be_logged do
   end
 end
 
+#Describe creates an instance of Spec::Example::ExampleGroup
 describe "user" do
   it "should be logged" do
     @user = mock("user")
