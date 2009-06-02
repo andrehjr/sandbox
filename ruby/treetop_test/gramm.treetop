@@ -1,0 +1,14 @@
+grammar GrammTest
+  rule other 
+    'ops ' hello { 
+	
+	def test 
+	  puts "lol ---> " + hello.text_value
+	end 
+	}   
+  end
+
+  rule hello
+     'hello there'
+  end
+end
